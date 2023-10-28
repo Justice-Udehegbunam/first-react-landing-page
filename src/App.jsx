@@ -1,12 +1,10 @@
-import { useState } from "react";
+import React from "react";
 import NavBar from "./components/NavBar";
 import Body from "./components/Body";
 import Property from "./components/property";
 import Counter from "./components/Counter";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <NavBar />
