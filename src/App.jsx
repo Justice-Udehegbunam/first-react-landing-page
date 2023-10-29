@@ -32,6 +32,7 @@ function App() {
           price="2,500,000"
         />
       </div>
+      <div className="mb-4"></div>
     </>
   );
 }
